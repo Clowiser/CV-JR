@@ -1,0 +1,139 @@
+@font-face
+{
+	font-family: 'K2D';
+	src : url('font/K2D-Regular.ttf') format('TrueType');
+}
+
+body
+{
+    font-family: K2D, Calibri, 'Trebuchet MS', sans-serif;
+    color: #515151;
+    margin: 0;
+}
+
+header
+{
+    background-color: #343434;
+    padding: 0.5%;
+}
+
+nav ul 
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: -2%;
+}
+
+nav ul
+{
+    font-weight: bold;
+}
+
+nav li
+{
+    margin-right: 2%;
+}
+
+#conteneur1
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1%;
+    padding-bottom: 2%;
+    background-image: url(../image/banniere2.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+#conteneur1 a
+{
+    color: white;
+    font-size: 1em;
+}
+
+.rs
+{
+    width: 10%;
+    vertical-align: bottom;
+    margin-left: -1%;
+}
+
+h1
+{
+    font-size: 3.5em;
+}
+
+#conteneur1 h2
+{
+    font-size: 2.5em;
+}
+
+#conteneur1 ul, nav ul
+{
+    list-style: none;
+    padding: 0;
+}
+
+img
+{
+    width: 10%;
+    height: auto;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#contact
+{
+    margin: 5%;
+    text-align: center;
+    padding: 1% 0 2% 0;
+    background-color: #efefef;
+    border-radius: 2%;
+	width: 70%;
+	margin-left: 15%;
+}
+
+.formulaire
+{
+    display: flex;
+    justify-content: center;
+}
+
+#formule
+{
+    display: flex;
+    flex-direction: column;
+}
+
+textarea, input
+{
+    border: 0;
+    border-radius: 6%;
+    background-color: white;
+}
+
+footer
+{
+    background-color: #343434;
+    padding: 1%;
+    color: white;
+}
+
+footer p
+{
+    text-align: right;
+}
+
+.weight
+{
+    font-weight: bold;
+}
+
+a
+{
+    color: white; 
+    text-decoration: none;
+    font-size: 1.2em;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="../Css/stylesheetcontact.css" />
+        <link rel="stylesheet" media="screen and (max-width: 1280px)" href="../CSS/petite_resolution.css" />
+        <title>Contact</title>
+    </head>
+<body>
+
+    <header>
+        <nav>
+        <ul>
+            <li><a href="../Pages/hobby.html">Centres d'intérêt</a></li>
+            <li><a href="../Pages/pitch.html">Vidéo de présentation</a></li>
+            <li><a href="../Pages/contact.html">Contact</a></li>
+        </ul>
+        </nav>
+    </header>
+    
+    <div id=conteneur1>
+        <div class="titre_profil">
+            <h1><a href="../index.html">Jessica Rigaud</a></h1>
+            <ul>
+                <li>NC </li>
+                <li>NC</li>
+                <li>NC</li>
+                <li>NC</li>
+                <li><a href="mailto:jessica.rigaud.dw@gmail.com">jessica.rigaud.dw@gmail.com</a></li>
+                <li>NC</li>
+                <li><a href="https://fr.linkedin.com/in/jessicarigaud"><img src="../image/linkedin.png" alt="Logo de linkedin" class="rs" /> <img src="../image/twitter.png" alt="Logo de linkedin" class="rs" /> <img src="../image/facebook.png" alt="Logo de linkedin" class="rs" /></a></li>
+            </ul>
+        </div>
+
+        <h2>Technicienne Développeuse Internet of Things</h2>
+
+        <img src="../image/sourire.jpg" alt="Photo de profil" class="photo" />
+    </div>
+
+    <div id="contact">
+        <h2>Contact</h2>
+
+        <form method="post" action="https://httpbin.org/post">
+            <p>Nom et prénom :</p>
+            <p>
+                <input type="text" name="prenom_nom" required="required">
+            </p>
+            <p>E-mail :</p>
+            <p>
+                <input type="email" name="adresse" required="required">
+            </p>
+            <p>Numéro de téléphone :</p>
+            <p>
+                <input type="tel" name="prenom_nom" required="required">
+            </p>
+
+            <p>Besoin d'une nouvelle collaboratrice ?</p>
+            <p>
+                <input type="radio" name="validation" value="oui" id="oui"/> <label for="oui">Oui</label><br>
+                <input type="radio" name="validation" value="non" id="non"/> <label for="non">Non</label><br>
+            </p>
+    
+            <label for="formule">
+               <span class="weight"> Alors, prenez contact !</span>
+            </label>
+            <p>Disponible, je vous invite à me contacter via ce formulaire en indiquant l'objet de votre contact. <br> 
+                Au plaisir de vous rencontrer !
+            </p>
+            <div class="formulaire">
+            <textarea name="formule" id="formule" rows="10" cols="50" placeholder="Ecrivez-ici !"></textarea>       
+            </div>
+
+            <p>
+                <label for="essai">Par quel moyens avez-vous trouvé mon CV ?</label><br>
+                <select name="essai" id="essai">
+                    <option value="pastresbien">Sites</option>
+                    <option value="pasbien">Réseaux Sociaux</option>
+                    <option value="bien">Réseaux Professionnels</option>
+                    <option value="tresbien">Salons</option>
+                </select>
+            </p>
+            <input type="submit" value="Envoyer"/>
+        </form>
+    </div>
+
+    <footer>
+        <p>Copyright - Jessica Rigaud 2021</p>
+    </footer>
+
+</body>
+</html>
